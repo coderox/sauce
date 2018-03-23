@@ -34,6 +34,8 @@ stamp-h*
 *.o
 *.obj
 *.pdb
+*.db
+*.opendb
 .dirstamp
 .libs
 cxx11_pedantic_compilation_test
@@ -93,3 +95,9 @@ vendor/gmock-1.7.0/scripts/gmock-config
 vendor/gmock-1.7.0/test/gmock-spec-builders_test
 vendor/gmock-1.7.0/test/gmock_fused_test
 vendor/gmock-1.7.0/test/gmock_link_test
+
+**/.vs/*
+**/Debug/*
+**/Generated Files/*
+**/ipch/*
+*.user

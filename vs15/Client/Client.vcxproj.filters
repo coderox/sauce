@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="sauce">
+      <UniqueIdentifier>{02e372a3-d718-4927-b0c9-cfc96c3521cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sauce\internal">
+      <UniqueIdentifier>{080b32ff-1a8e-4654-ad3c-81bc3fffa486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sauce\internal\memory">
+      <UniqueIdentifier>{5aff3bea-dce8-4908-bc26-6e23cb3bc39a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\binder.h">
+      <Filter>sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\exceptions.h">
+      <Filter>sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\injector.h">
+      <Filter>sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\memory.h">
+      <Filter>sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\modules.h">
+      <Filter>sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\named.h">
+      <Filter>sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\provider.h">
+      <Filter>sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\sauce.h">
+      <Filter>sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\scopes.h">
+      <Filter>sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\memory\tr1.h">
+      <Filter>sauce\internal\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\memory\std.h">
+      <Filter>sauce\internal\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\memory\boost.h">
+      <Filter>sauce\internal\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\apply_variadic.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\base_injector.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\binding.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\bindings.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\clause.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\disposal_deleter.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\implicit_bindings.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\implicit_provider_binding.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\injector_binding.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\key.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\instance_binding.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\locker_factory.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\method_binding.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\new_binding.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\opaque_binding.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\pending_thrower.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\provider_binding.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\resolved_binding.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\scope_cache.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\self_injector.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sauce\internal\type_id.h">
+      <Filter>sauce\internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\sauce\config.h.in">
+      <Filter>sauce</Filter>
+    </None>
+    <None Include="..\..\sauce\sauce.pc.in">
+      <Filter>sauce</Filter>
+    </None>
+    <None Include="..\..\sauce\internal\apply_variadic.h.pump">
+      <Filter>sauce\internal</Filter>
+    </None>
+  </ItemGroup>
+</Project>
